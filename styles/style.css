@@ -100,7 +100,7 @@ footer {
 img {
     margin: 20px;
     border-radius: 3500px;
-    border: dotted 5px;
+    border: dashed 5px;
     border-color: #694f5dff;
     cursor: grab;
     animation-duration: .5s;
@@ -118,5 +118,5 @@ img {
     }
   }
 img:hover {
-    transform: rotate(5deg) scale(1.05);
+    transform: rotate(5deg) scale(1.15);
 }
