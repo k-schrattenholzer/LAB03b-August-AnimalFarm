@@ -80,10 +80,12 @@ h2 {
     font-weight: bold;
 }
 
-}
 
 p {
     background-color: #694f5dff;
+    color: #ffe5d4ff;
+    font-size: 20px;
+    font-style: italic;
 }
   
 footer {

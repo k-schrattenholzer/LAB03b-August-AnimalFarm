@@ -12,30 +12,30 @@ const catSound = document.getElementById('cat-sound');
 //
 
 catEl.addEventListener('click', () => {
-  catSound.play ();
-  headerEl.textContent = "Cat";
+    catSound.play ();
+    headerEl.textContent = "Cat";
 });
 dogEl.addEventListener('click', () => {
-  dogSound.play ();
-  headerEl.textContent = "Dog";
+    dogSound.play ();
+    headerEl.textContent = "Dog";
 });
 horseEl.addEventListener('click', () => {
-  horseSound.play ();
-  headerEl.textContent = "Horse";
+    horseSound.play ();
+    headerEl.textContent = "Horse";
 });
 
 //listen for when the user hits a key, when they do examine this event thing. event is a callback here
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'c') {
-    alert('you pressed C - C is for CAT');
-    catSound.play ();
-  };
-  if (event.key === 'd') {
-    alert('you pressed D - D is for DOG');
-    dogSound.play ();
-  };
-  if (event.key === 'h') {
-    alert('you pressed H - H is for HORSE');
-    dogSound.play ();
-  };
+    if (event.key === 'c') {
+        alert('you pressed C - C is for CAT');
+        catSound.play ();
+    }
+    if (event.key === 'd') {
+        alert('you pressed D - D is for DOG');
+        dogSound.play ();
+    }
+    if (event.key === 'h') {
+        alert('you pressed H - H is for HORSE');
+        horseSound.play ();
+    }
 });
