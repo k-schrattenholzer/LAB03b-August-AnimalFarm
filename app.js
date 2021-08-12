@@ -1,5 +1,6 @@
 // import functions and grab DOM elements
-const headerEl = document.getElementById('animal-click');
+import { playSoundChangeText } from './utils';
+
 //
 const horseEl = document.getElementById('horse-img');
 const dogEl = document.getElementById('dog-img');
@@ -9,14 +10,6 @@ const horseSound = document.getElementById('horse-sound');
 const dogSound = document.getElementById('dog-sound');
 const catSound = document.getElementById('cat-sound');
 
-//Re-factored Code
-function playSoundChangeText(animalSound, animalName) {
-    animalSound.play();
-    headerEl.textContent = animalName;
-    setTimeout(() => {
-        headerEl.textContent = 'Pick another!';
-    }, 3000);
-}
 
 //
 
