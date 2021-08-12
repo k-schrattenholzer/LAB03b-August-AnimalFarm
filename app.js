@@ -24,3 +24,10 @@ horseEl.addEventListener('click', () => {
   headerEl.textContent = "Horse";
 });
 
+//keydown
+
+document.addEventListener('keydown', () => {
+  catSound.play ();
+
+});
+
