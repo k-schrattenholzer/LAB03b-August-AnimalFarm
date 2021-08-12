@@ -61,8 +61,6 @@ header {
     display: grid;
     justify-content: center;
     justify-items: center;
-    align-items: center;
-    height: var(--header-height);
     background-color: #ffe5d4ff;
     
 }
@@ -76,7 +74,7 @@ footer {
 
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -84,8 +82,12 @@ h2 {
 p {
     background-color: #694f5dff;
     color: #ffe5d4ff;
+    width: 100%;
     font-size: 20px;
     font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
   
 footer {
