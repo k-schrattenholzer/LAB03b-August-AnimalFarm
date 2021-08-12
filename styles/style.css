@@ -88,18 +88,18 @@ footer {
 img {
     margin: 20px;
     cursor: grab;
-    animation-duration: 1s;
+    animation-duration: .5s;
     animation-name: rotate;
-    animation-iteration-count: 2;
+    animation-iteration-count: 12;
     animation-direction: alternate-reverse;
 }
 @keyframes rotate {
     from {
-        transform: rotate(0);
+        transform: rotate(-5deg);
     }
   
     to {
-        transform: rotate(360deg);
+        transform: rotate(5deg);
     }
   }
 img:hover {
