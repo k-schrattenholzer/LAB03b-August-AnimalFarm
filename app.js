@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { playSoundChangeText } from './utils';
+import { playSoundChangeText } from './utils.js';
 
 //
 const horseEl = document.getElementById('horse-img');
